@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.568" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-15T10:56:16.309629500Z">
+<testcase classname="Create a user account" name="Register a new user successfully" time="12.043">
+<system-out><![CDATA[
+Given Navigate to the URL"https://automationexercise.com/"..................passed
+And Go to Signup/Login page.................................................passed
+When Enter my name "User Testing" and email "y4l8os1izx@yzcalo.com".........passed
+And Click the Signup button.................................................passed
+When Should see the account registration form...............................passed
+Then Fill Password "pass12" and First Name "User" and Last Name "Test"......passed
+And Address "India" and State "UP" and City "Mirzapur" and ZIP code "123456".passed
+And Mobile Number "9087654321"..............................................passed
+And Click on Create Account button..........................................passed
+Then Should see a Logged in Dashboard.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login a user account" name="Validate login a user with valid credentials successfully" time="11.357">
+<system-out><![CDATA[
+Given Navigate to this URL"https://automationexercise.com/".................passed
+And Go to Login page........................................................passed
+When Enter email "y4l8os1izx@yzcalo.com" and password "pass12"..............passed
+Then Click on the Login button..............................................passed
+And Should see User's Name..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
